@@ -1,8 +1,6 @@
-# sabnzbd-tautulli-control
-
 # AutoPauseStream
 
-AutoPauseStream is a Python script designed for home media servers. It optimizes streaming by monitoring Tautulli for ongoing Plex activity and automatically managing SABnzbd downloads. Below are the key aspects of the script:
+AutoPauseStream is a Python script designed for home media servers. It optimizes streaming by monitoring Tautulli for ongoing Plex activity and automatically managing SABnzbd downloads. Key aspects of the script include:
 
 **Functionality:**
 
@@ -13,10 +11,13 @@ AutoPauseStream is a Python script designed for home media servers. It optimizes
    - If streaming is detected, it pauses SABnzbd downloads to allocate bandwidth for smooth playback.
    - When streaming ends, it resumes SABnzbd downloads to ensure timely downloads.
 
-3. **Customizable Frequency:**
+3. **Preventing Drive Overload:**
+   - The script intelligently prevents data transfers to a drive currently playing Plex content, reducing buffering for all users during transfers.
+
+4. **Customizable Frequency:**
    - Users can control the frequency of reaching out to Tautulli by adjusting the sleep duration in the script (default is 60 seconds).
 
-4. **Troubleshooting Logs:**
+5. **Troubleshooting Logs:**
    - The script outputs detailed logs in the `sabnzbd_control.log` file, which can be helpful for troubleshooting.
 
 **Customizable Variables:**
