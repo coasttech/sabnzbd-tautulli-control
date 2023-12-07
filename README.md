@@ -1,0 +1,2 @@
+# sabnzbd-tautulli-control
+AutoPauseStream
