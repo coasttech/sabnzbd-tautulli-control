@@ -16,6 +16,9 @@ AutoPauseStream is a Python script designed for home media servers. It optimizes
 3. **Customizable Frequency:**
    - Users can control the frequency of reaching out to Tautulli by adjusting the sleep duration in the script (default is 60 seconds).
 
+4. **Troubleshooting Logs:**
+   - The script outputs detailed logs in the `sabnzbd_control.log` file, which can be helpful for troubleshooting.
+
 **Customizable Variables:**
 
 - Users can customize the following variables in the script to match their own setup:
@@ -29,6 +32,7 @@ AutoPauseStream is a Python script designed for home media servers. It optimizes
 - Automated SABnzbd pause and resume.
 - Enhances streaming quality.
 - Easy setup for all users.
+
 
 [Project Link](https://github.com/coasttech/sabnzbd-tautulli-control)
 
